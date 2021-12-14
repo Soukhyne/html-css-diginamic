@@ -1,0 +1,22 @@
+h1 {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border: solid 1px;
+  padding: 0.2rem;
+}
+
+thead tr {
+  background-color: darkblue;
+  color: white;
+}
+
+.right {
+  text-align: right;
+}
