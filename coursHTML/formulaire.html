@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <form Action="https://digicode.cleverapps.io/utilisateurs/create" method="POST">
+      <input type="hidden" name="identite" value="lafont">
+      <label for="nom">Votre nom</label>
+      <input type="text" name="nom" id="nom">
+      <label for="prenom">Votre prénom</label>
+      <input type="text" name="prenom" id="prenom">
+      <label for="dateNaissance">Votre date de naissance</label>
+      <input type="date" name="dateNaissance" id="dateNaissance">
+      <label for="lieuNaissance">Votre lieu de naissace</label>
+      <input type="text" name="lieuNaissance" id="lieuNaissance">
+      <label for="deptNaissance">Votre departement de naissance</label>
+      <select name="deptNaissance" id="deptNaissance">
+        <option value="34">Herault</option>
+        <option value="30">Gard</option>
+        <option value="12">Aude</option>
+      </select>
+      <label for="numeroRue">Votre numero de rue</label>
+      <input type="number" name="numeroRue" id="numeroRue">
+      <label for="libelleRue">Votre libelle de rue</label>
+      <input type="text" name="libelleRue" id="libellerue">
+      <label for="codePostal">Votre code postal</label>
+      <input type="number" name="codePostal" id="codePostal">
+      <label for="ville">Votre ville</label>
+      <input type="text" name="ville" id="ville">
+      <button type ="submit"> Valider</button>
+      <button type ="reset"> Effacer</button>
+
+    </form>
+</form>
+  </body>
+</html>
