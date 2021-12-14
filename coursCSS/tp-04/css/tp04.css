@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0;
+}
+header {
+  background-color: aqua;
+  height: 70px;
+}
+
+nav {
+  background-color: burlywood;
+  height: 300px;
+  flex-grow: 1;
+}
+
+main {
+  background-color: green;
+  padding: 20px;
+  height: 300px;
+  flex-grow: 2;
+  padding: 0;
+}
+
+section {
+  background-color: grey;
+  height: 200px;
+  margin: 0.2rem;
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: red;
+  height: 70px;
+}

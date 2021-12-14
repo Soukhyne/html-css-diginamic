@@ -1,0 +1,29 @@
+div {
+  background-color: darkblue;
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+}
+
+ul li {
+  background-color: white;
+  list-style-type: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+li:hover {
+  background-color: darkcyan;
+  cursor: pointer;
+}

@@ -2,6 +2,7 @@ h1 {
   background-color: darkblue;
   color: white;
   text-align: center;
+  border-radius: 10px;
 }
 
 table,
@@ -10,6 +11,10 @@ td {
   border-collapse: collapse;
   border: solid 1px;
   padding: 0.2rem;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
 }
 
 thead tr {
